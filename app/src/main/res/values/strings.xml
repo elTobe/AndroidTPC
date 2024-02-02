@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SuperVAZQ TPC</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="ip_defecto">192.168.0.105:3306</string>
+    <string name="usuario_defecto">ventas:******</string>
+    <string-array name="default_entries">
+        <item>N/A</item>
+    </string-array>
+</resources>

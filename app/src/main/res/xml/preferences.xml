@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="general"
+        app:title="General">
+
+        <EditTextPreference
+            app:defaultValue="@string/ip_defecto"
+            app:icon="@android:drawable/ic_menu_set_as"
+            app:key="server_ip"
+            app:summary="@string/ip_defecto"
+            app:title="Direccion IP : Port del servidor" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="general"
+        app:title="Log In">
+
+        <EditTextPreference
+            app:defaultValue="@string/usuario_defecto"
+            app:icon="@android:drawable/ic_menu_myplaces"
+            app:key="user_pass"
+            app:summary="@string/usuario_defecto"
+            app:title="Usuario : Contraseña" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Vista (admins)">
+
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:title="Cambio de existencias"
+            app:enabled="false"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:key="editar_existencias" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:title="Cambio Min/Max"
+            app:enabled="false"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:key="editar_min_max" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:title="Cambio Dep/Cat"
+            app:enabled="false"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:key="editar_dep_cat" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="editar_ubicacion"
+            android:title="Cambio de ubicacion"
+            app:enabled="false"
+            app:icon="@android:drawable/ic_menu_edit" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:title="Mostrar precio de compra"
+            app:enabled="false"
+            app:icon="@android:drawable/ic_menu_zoom"
+            app:key="mostrar_precio_compra" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Vista (todos)">
+
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:title="Mostrar imagen de producto"
+            app:enabled="true"
+            app:icon="@android:drawable/ic_menu_gallery"
+            app:key="mostrar_imagen" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:title="Mostrar clave"
+            app:enabled="true"
+            app:icon="@android:drawable/ic_menu_view"
+            app:key="mostrar_clave" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:title="Mostrar clave alterna"
+            app:enabled="true"
+            app:icon="@android:drawable/ic_menu_view"
+            app:key="mostrar_clave_alterna" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="true"
+            android:title="Mostrar ubicacion"
+            app:icon="@android:drawable/ic_menu_view"
+            app:key="mostrar_ubicacion" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:title="Mostrar existencias"
+            app:icon="@android:drawable/ic_menu_view"
+            app:key="mostrar_existencias" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="mostrar_min_max"
+            android:title="Mostrar Inv Minimo y Maximo"
+            app:icon="@android:drawable/ic_menu_view" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="mostrar_dep_cat"
+            android:title="Mostrar Dep/Cat"
+            app:icon="@android:drawable/ic_menu_view" />
+        <SwitchPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:title="Mostrar productos con clave similar y paquetes"
+            app:enabled="true"
+            app:icon="@android:drawable/ic_menu_sort_by_size"
+            app:key="mostrar_paquetes" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
