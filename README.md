@@ -4,7 +4,7 @@ AndroidTPC es una aplicación desarrollada en Android Studio que sirve como un c
 
 Este proyecto hace uso de la librería ZXing, más información [aqui](https://github.com/journeyapps/zxing-android-embedded).
 
-![AndroidTPC](workflow.gif) ![AndroidTPC](screenshot2.jpg)
+![AndroidTPC](workflow.gif)
 
 ## Requisitos
 
