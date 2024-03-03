@@ -1,9 +1,10 @@
 # AndroidTPC
 
 AndroidTPC es una aplicación desarrollada en Android Studio que sirve como un checador portátil y ayuda en el manejo de inventarios (dependiendo de la configuración de permisos del usuario que se use). La aplicación se comunica mediante MySQL con SICAR Punto de Venta.
+
 Este proyecto hace uso de la librería ZXing, más información [aqui](https://github.com/journeyapps/zxing-android-embedded).
 
-![AndroidTPC](workflow.gif)
+![AndroidTPC](workflow.gif) ![AndroidTPC](screenshot.jpg)
 
 ## Requisitos
 
